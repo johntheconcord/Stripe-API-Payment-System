@@ -1,7 +1,7 @@
 <?php
   require_once('vendor/autoload.php');
   
-  \Stripe\Stripe::setApiKey('sk_test_dipxLu6TCYp0d4s6VbJjYKaA');
+  \Stripe\Stripe::setApiKey('sk_test_YOURSECRETKEY');
  // Sanitize POST Array
  $POST = filter_var_array($_POST, FILTER_SANITIZE_STRING);
  $first_name = $POST['first_name'];
